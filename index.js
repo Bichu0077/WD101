@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <td class="border px-4 py-2">${user.email}</td>
         <td class="border px-4 py-2">${user.password}</td>
         <td class="border px-4 py-2">${user.dob}</td>
-        <td class="border px-4 py-2">${user.termsAccepted ? "True" : "False"}</td>
+        <td class="border px-4 py-2">${user.termsAccepted ? "true" : "false"}</td>
       `;
   
       tableBody.appendChild(row);
