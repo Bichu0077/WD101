@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
   
       const dob = new Date(dobInput.value);
-      if (dob < minDate || dob > maxDate) {
+      if (dob <= minDate || dob >= maxDate) {
         showError(dobInput);
         valid = false;
       }
